@@ -1,1 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clan of Sigurd</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=UnifrakturCook:wght@700&display=swap');
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(#1a0f08, #2c1e12);
+            color: #e8d5a3;
+            font-family: 'Cinzel', serif;
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
+        .container {
+            max-width: 900px;
+            padding: 40px 20px;
+        }
+
+        .logo {
+            width: 320px;
+            height: 320px;
+            margin: 40px auto;
+            border: 8px solid #b38b4d;
+            border-radius: 50%;
+            box-shadow: 0 0 40px rgba(179, 139, 77, 0.6),
+                        inset 0 0 30px rgba(255, 215, 0, 0.3);
+            transition: transform 0.4s ease;
+        }
+
+        .logo:hover {
+            transform: scale(1.05);
+        }
+
+        h1 {
+            font-family: 'UnifrakturCook', cursive;
+            font-size: 4.5rem;
+            margin: 20px 0 10px;
+            color: #f4d48f;
+            text-shadow: 0 0 20px #b38b4d,
+                         3px 3px 0 #3c2f1e;
+            letter-spacing: 4px;
+        }
+
+        .subtitle {
+            font-size: 1.4rem;
+            color: #c9a96b;
+            margin-bottom: 50px;
+            letter-spacing: 6px;
+            font-weight: 400;
+        }
+
+        .content {
+            background: rgba(30, 20, 10, 0.85);
+            border: 3px solid #b38b4d;
+            border-radius: 12px;
+            padding: 40px 30px;
+            max-width: 700px;
+            margin: 0 auto;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+        }
+
+        p {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: #d4b88a;
+            margin: 25px 0;
+        }
+
+        .footer {
+            margin-top: auto;
+            padding: 30px 0 20px;
+            font-size: 0.95rem;
+            color: #8c6f47;
+        }
+
+        .rune {
+            font-size: 2rem;
+            opacity: 0.6;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Logo -->
+        <img src="logo.png" alt="Clan of Sigurd Logo" class="logo">
+
+        <!-- Heading -->
+        <h1>CLAN OF SIGURD</h1>
+        <div class="subtitle">SONS OF THE DRAGONSLAYER</div>
+
+        <div class="content">
+            <p>Welcome, kinsman.</p>
+            <p>
+                We are the descendants of Sigurd, slayer of Fafnir, wielder of Gram. 
+                Bound by blood, honor, and the old ways of the North.
+            </p>
+            <p>
+                Here lies the digital longhouse of our clan — a place to remember our saga, 
+                share our stories, and keep the fire of our ancestors burning.
+            </p>
+        </div>
+
+        <div class="footer">
+            <span class="rune">ᚠᚢᚦᚨᚱᚲ</span> 
+            Clan of Sigurd • Est. in the Age of Sagas 
+            <span class="rune">ᚠᚢᚦᚨᚱᚲ</span>
+        </div>
+    </div>
+</body>
+</html>
